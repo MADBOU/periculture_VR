@@ -1,0 +1,85 @@
+# MTL written from C:\Users\eliseev_a\Downloads\3D objects\exteriors\exter02\toy01.obj
+newmtl toy01:_0321_032ring
+Kd 0.54902 0.715294 0.357647
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+newmtl toy01:_03210_032ring
+Kd 0.781176 0.668235 0.0219608
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+newmtl toy01:_0322_032ring
+Kd 0.16 0.370196 0.454902
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+newmtl toy01:_0323_032ring
+Kd 0.345098 0.511373 0.67451
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+newmtl toy01:_0324_032ring
+Kd 0.19451 0.266667 0.567843
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+newmtl toy01:_0325_032ring
+Kd 0.35451 0.134902 0.363922
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+newmtl toy01:_0326_032ring
+Kd 0.8 0.216471 0.301176
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+newmtl toy01:_0327_032ring
+Kd 0.8 0.200784 0.153725
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+newmtl toy01:_0328_032ring
+Kd 0.787451 0.35451 0.119216
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+newmtl toy01:_0329_032ring
+Kd 0.796863 0.517647 0.147451
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+newmtl toy01:_032center
+Kd 0.699608 0.596078 0.486275
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+newmtl toy01:_032upCircle
+Kd 0.774902 0.22902 0.122353
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2

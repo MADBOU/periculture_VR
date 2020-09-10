@@ -1,0 +1,524 @@
+fileFormatVersion: 2
+guid: f4501b24d5f7ad14188453b3ee92e467
+ModelImporter:
+  serializedVersion: 25
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bear2_mtl
+    second: {fileID: 2100000, guid: 9c29fb9c344e438488cbe28779820301, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bear_mtl
+    second: {fileID: 2100000, guid: f19be57689655d04c8ebd8663207c95d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black_Marker_mtl
+    second: {fileID: 2100000, guid: 9d5719b0df77d34449b32d90c6345720, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BookShelf_mtl
+    second: {fileID: 2100000, guid: e9e3b946c4a9711438f790f5efdf80a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Books_mtl
+    second: {fileID: 2100000, guid: 34c6264a163c01a4797d74b086184100, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bunny_mtl
+    second: {fileID: 2100000, guid: cea33b05927b3b7489ff32401ca5349f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CeilingLight_mtl1
+    second: {fileID: 2100000, guid: 54fcb0a7c46776f409a3b46b9ff26c2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CeilingLight_mtl2
+    second: {fileID: 2100000, guid: e7f764badd2e07146803cc27060123b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CeilingLight_mtl3
+    second: {fileID: 2100000, guid: 8476343992b056f45815e4a6ba66a432, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CeilingLight_mtl4
+    second: {fileID: 2100000, guid: 0705fcf8542886a448a28cbcccd9372f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Clock2_mtl
+    second: {fileID: 2100000, guid: df67a87c847e3e1418c1346a0c91418e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ColorPencil_mtl
+    second: {fileID: 2100000, guid: 1d33972d8b01cf64588dadfd4aea78a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ColoringBook_mtl
+    second: {fileID: 2100000, guid: 91507ab3c3ee59647b3ff8b250c83d8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ColorsBox_mtl
+    second: {fileID: 2100000, guid: 57e063a1e2a3a864cac5f6daf824457d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door-Wndow_mtl
+    second: {fileID: 2100000, guid: 8f99bf81f2f334542b9b4cf33e60974a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DuckBike_mtl
+    second: {fileID: 2100000, guid: d68185b812e5f3b4daf2a34e2e2191a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor_mtl
+    second: {fileID: 2100000, guid: e78923dc36313994bbef9cf584d7e211, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fox_mtl
+    second: {fileID: 2100000, guid: 27860283fdb18ba4b80c32c31f5b5b86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass2_mtl
+    second: {fileID: 2100000, guid: f2bdc3930fbc4d149971b1a8d7d51fba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass_mtl
+    second: {fileID: 2100000, guid: 2802c7078fd3d4b4c9043cf5d0254e9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jar_mtl
+    second: {fileID: 2100000, guid: 5c5155670b56e924486ed2e367ae9166, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jar_mtl2
+    second: {fileID: 2100000, guid: 651883c557cf2214ba1641f806f84c1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KidsCabinet_mtl
+    second: {fileID: 2100000, guid: bbf7028857c26bb4ba9f2949e38c30fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light_mtl
+    second: {fileID: 2100000, guid: 90503011d41e6a741b363c80f1b448f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Panda_mtl
+    second: {fileID: 2100000, guid: 7b26095dec02fda42abb3938e9858f2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Penguin_mtl
+    second: {fileID: 2100000, guid: e33363481854ea64e8b432dfa22a1ed9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red_Marker_mtl
+    second: {fileID: 2100000, guid: 575ed694d72229d47a8be47415aed9f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RockingToy_mtl
+    second: {fileID: 2100000, guid: 77407fbda6a1bb246a83f92c8841d467, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Slide_mtl
+    second: {fileID: 2100000, guid: d16cc53934631d54ca0a86b04676c42d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Table_mtl
+    second: {fileID: 2100000, guid: f08b27fc86c065b44bfc46c3d6b88762, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walls_mtl
+    second: {fileID: 2100000, guid: d04f2dbcb82afbe4180134f43e96ded7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WhiteBoard_mtl
+    second: {fileID: 2100000, guid: 8a04fb1d84e5961499fbf747c655126f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Xylophone_mtl
+    second: {fileID: 2100000, guid: 54b364edadcca2c43962447006ced417, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: YellowPencil_mtl
+    second: {fileID: 2100000, guid: 8be4de25ead0b7d44a08ac01c06bfb4e, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bear2_Diffuse
+    second: {fileID: 2800000, guid: c069a5809c117e14b9ce53b15be58266, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bear_Diffuse
+    second: {fileID: 2800000, guid: 2d285d351ab76414784a72439355d6d1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BlackMarker_Diffuse
+    second: {fileID: 2800000, guid: 50787761fb3eb354db911bbd7bcdb53e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BlackMarker_Glossiness
+    second: {fileID: 2800000, guid: 7e9a47033caf98c4fb4c66b5d7b94a2a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BlackMarker_Normal
+    second: {fileID: 2800000, guid: a2321066a25c925439d8c08d560e2601, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BlackMarker_Specular
+    second: {fileID: 2800000, guid: a44207a416c15304ea4be79d4c587446, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BookShelf_Diffuse
+    second: {fileID: 2800000, guid: 5a69d02086ad6b340bb44d6968e92ecf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BookShelf_Glossiness
+    second: {fileID: 2800000, guid: 4719a12f221236f41a03474a4877eaff, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BookShelf_Normal
+    second: {fileID: 2800000, guid: 5d3fda3daa487324ab07184eadad3ad3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BookShelf_Specular
+    second: {fileID: 2800000, guid: a6053e1bf5861e2419967acd666ac8a1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Books_Diffuse
+    second: {fileID: 2800000, guid: b7fdbf455bf8e0b44b9a61a4afca05ae, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bunny_Diffuse
+    second: {fileID: 2800000, guid: 06cd052d99a446a4ba915249f7563115, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Clock02_Diffuse
+    second: {fileID: 2800000, guid: 433797ce14dc8d74796cc827ba8a3bb7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Clock02_Glossiness
+    second: {fileID: 2800000, guid: 8e15156004407f34c919059d64b90416, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Clock02_Normal
+    second: {fileID: 2800000, guid: a6834c41d78194b49bc8250e2a088a9f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Clock02_Specular
+    second: {fileID: 2800000, guid: b5c99c66946391f4cb74d3eb04396473, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ColoringBook_Diffuse
+    second: {fileID: 2800000, guid: 6447f181cc25de04dbe8635ebe60cbf9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ColorsSet_Diffuse
+    second: {fileID: 2800000, guid: 24cd56718c7ecb94eb3185d4d9a70610, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ColorsSet_Glossiness
+    second: {fileID: 2800000, guid: 9529ad994f99c704487da33c3dc68bfe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ColorsSet_Normal
+    second: {fileID: 2800000, guid: 2847ae448519c6d4396435868b560e79, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ColorsSet_Specular
+    second: {fileID: 2800000, guid: 5d0d821a28c966f4dad3670c340a20bc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Door-Wndow_Diffuse
+    second: {fileID: 2800000, guid: 5143b5f2b2511244abe8de6aaa291ff3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DuckBike_Diffuse
+    second: {fileID: 2800000, guid: cac03c5cff9a08f4a9cf9871d4c02c36, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Floor_Diffuse
+    second: {fileID: 2800000, guid: e6a0d3c2c633e264dab92e6e41839910, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Fox_Diffuse
+    second: {fileID: 2800000, guid: ba6ae646ce8ccbd41925db8dab838a38, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Glass_Diffuse
+    second: {fileID: 2800000, guid: 7fbb52390680c2a41a7a50c901d550de, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Glass_Glossiness
+    second: {fileID: 2800000, guid: 5084263906517394fa69555663183e0a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Glass_Normal
+    second: {fileID: 2800000, guid: 3253efb8d98589d4fb921bea91960e75, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Glass_Refraction
+    second: {fileID: 2800000, guid: 1685c770f8d051b46a51b803e8edc1f7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Glass_Specular
+    second: {fileID: 2800000, guid: a71b259da11842042b9170396cc7e265, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: KidsCabinet_Diffuse
+    second: {fileID: 2800000, guid: 75f7fe06257a93b4ca33eeaf9d55c0ee, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: KidsTable_Diffuse
+    second: {fileID: 2800000, guid: 9759e3a9c299357448ee1f523baa6ec1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Panda_Diffuse
+    second: {fileID: 2800000, guid: dc76254d21ca8914a8e7d60892e24905, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PencilsCup2_Diffuse
+    second: {fileID: 2800000, guid: adbd9e2fc5be3fc4f9d365ba851873ef, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PencilsCup_Diffuse
+    second: {fileID: 2800000, guid: f2515b7f048a4bc4a951cc610a5820f0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Penguin_Diffuse
+    second: {fileID: 2800000, guid: 3ce77777fabac19419b2d17b03b92f2b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RedMarker_Diffuse
+    second: {fileID: 2800000, guid: fb35e6477c3393143a765e976ea21a65, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RedMarker_Glossiness
+    second: {fileID: 2800000, guid: 71d9b85bc8e5e42439934312a006fa9d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RedMarker_Normal
+    second: {fileID: 2800000, guid: bcdd280a22f5b0e418e36139b840447a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RedMarker_Specular
+    second: {fileID: 2800000, guid: a9d23634f92339f4689677d0a7867c0f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RockingToy_Diffuse
+    second: {fileID: 2800000, guid: 8c2b899d373dc4a40be8ecf73c14d6d4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Slide_Diffuse
+    second: {fileID: 2800000, guid: d8673dad5f66ef140b67f307c58ff4a5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_Diffuse
+    second: {fileID: 2800000, guid: 0862e45fbc1608f46878a1120bcc76c3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WhiteBoard2_Diffuse
+    second: {fileID: 2800000, guid: 3d3ecda11b603674b9dc23c7490b9ff3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WhiteBoard2_Glossiness
+    second: {fileID: 2800000, guid: 635b9f753c6c6244f95ae6d0bea3c42a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WhiteBoard2_Normal
+    second: {fileID: 2800000, guid: aad8ee1d2940bdb468c3f59b2127a760, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WhiteBoard2_Specular
+    second: {fileID: 2800000, guid: 96b8c2f58111e384c9b8785df4052086, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Xylophone_Diffuse
+    second: {fileID: 2800000, guid: 2496d3466fe5c694a866b3fd3f24507c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: YellowPencil_Diffuse
+    second: {fileID: 2800000, guid: 9793330433269444aba5b0cc58924b5e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: YellowPencil_Glossiness
+    second: {fileID: 2800000, guid: d1712c91f03f2294c9c6188f7cc299a8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: YellowPencil_Normal
+    second: {fileID: 2800000, guid: cde8a857bf715354e8581cb0b1477e5a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: YellowPencil_Specular
+    second: {fileID: 2800000, guid: 04d95192cfa17c845a6a6b34c1513b42, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 0
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
