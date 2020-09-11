@@ -29,7 +29,7 @@ public class Child_walking : MonoBehaviour
             animator.SetBool("IsWalking", true);
             AI_Worker_Walking.isWalking = true;
             StartCoroutine(coroutine_next());
-            //StartCoroutine(coroutine_stopanimation());
+            StartCoroutine(coroutine_stopanimation());
         }
     }
     IEnumerator coroutine_next()
@@ -41,7 +41,7 @@ public class Child_walking : MonoBehaviour
     IEnumerator coroutine_stopanimation()
     {
         Debug.Log("coroutine  stop created");
-        yield return new WaitForSeconds(10f);
+        yield return new WaitForSeconds(21f);
         animator.SetBool("IsWalking", false);
         AI_Worker_Walking.isWalking = false;
     }
