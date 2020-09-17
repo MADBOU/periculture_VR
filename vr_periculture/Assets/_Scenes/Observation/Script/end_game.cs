@@ -18,8 +18,9 @@ public class end_game : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         Debug.Log(other.gameObject.name);
-        if (other.gameObject.name == "one_upon")
+        if (other.gameObject.name == "Book_upon")
         {
+            this.GetComponent<Collider>().isTrigger = true;
             other.gameObject.GetComponent<Renderer>().material.SetColor("_Color", Color.green);
             Debug.Log("GameOver!!!");
             Application.Quit();
