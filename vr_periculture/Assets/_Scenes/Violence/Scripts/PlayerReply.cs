@@ -12,8 +12,17 @@ public class PlayerReply : MonoBehaviour
     public Button[] replyButtons;
     private AudioSource _audioSource;
     private PlayAudioOnAnswer playAudioOnAnswer;
+    private GetScoring getScoring;
+    private MoveToNextPoint moveToNextPoint;
+    
+    private void Awake()
+    {
+        getScoring = GameObject.FindObjectOfType<GetScoring>();
+        
+    }
     void Start()
     {
+        moveToNextPoint = GameObject.FindObjectOfType<MoveToNextPoint>();
         _audioSource = this.gameObject.GetComponent<AudioSource>();
         playAudioOnAnswer = GameObject.FindObjectOfType<PlayAudioOnAnswer>();
     }
@@ -26,31 +35,31 @@ public class PlayerReply : MonoBehaviour
     public void CheckForCorrectAnswer(Button button)
     {
         // Deactivate all other buttons and check for answers
-
-
+     
         if (button.gameObject.name.Contains(correctAnswer))
         {
             // Correct answer // Play the appropriate sound and green colour 
+            getScoring.correctAns++;
             _audioSource.clip = playAudioOnAnswer.correctAnswer;
             _audioSource.Play();
-            button.GetComponent<Image>().color = Color.green;
+            button.GetComponent<Image>().color = Color.green;            
         }
         else
         {
             // Wrong answer // Play the appropriate sound and red colour // Correct answer in green colour
+          
             _audioSource.clip = playAudioOnAnswer.wrongAnswer;
             _audioSource.Play();
-            Debug.Log("Wrong Answer -Wrong ans");
             button.GetComponent<Image>().color = Color.red;
             GetCorrectAnswer();
         }
-
+        moveToNextPoint.CheckAndActivateNextCheckPoint();
         DeactivateAllButtons();
+
     }
 
     private void DeactivateAllButtons()
     {
-        Debug.Log("Deactivate all buttons -Wrong ans");
 
         foreach (Button _button in replyButtons)
         {
@@ -60,7 +69,6 @@ public class PlayerReply : MonoBehaviour
 
     private void GetCorrectAnswer()
     {
-        Debug.Log("GetCorrect Answer -Wrong ans");
 
         foreach (Button _button in replyButtons)
         {
