@@ -25,6 +25,7 @@ public class Child_walking : MonoBehaviour
         Debug.Log(collision.gameObject.name);
         if (collision.gameObject.name == "PlayerController")
         {
+            this.GetComponent<Collider>().isTrigger = true;
             child.SetActive(true);
             animator.SetBool("IsWalking", true);
             AI_Worker_Walking.isWalking = true;
@@ -41,8 +42,9 @@ public class Child_walking : MonoBehaviour
     IEnumerator coroutine_stopanimation()
     {
         Debug.Log("coroutine  stop created");
-        yield return new WaitForSeconds(25f);
+        yield return new WaitForSeconds(40f);
         animator.SetBool("IsWalking", false);
         AI_Worker_Walking.isWalking = false;
+        
     }
 }

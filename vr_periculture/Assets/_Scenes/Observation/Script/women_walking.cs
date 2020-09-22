@@ -6,7 +6,9 @@ public class women_walking : MonoBehaviour
 {
     public GameObject next_point;
     public GameObject women;
+    public AudioSource sound_walking;
     Animator animator;
+    
     UnityStandardAssets.Characters.ThirdPerson.AI_Worker_Walking AI_Worker_Walking;
     // Start is called before the first frame update
     void Start()
@@ -25,11 +27,16 @@ public class women_walking : MonoBehaviour
         Debug.Log(collision.gameObject.name);
         if (collision.gameObject.name == "PlayerController")
         {
+            this.GetComponent<Collider>().isTrigger = true;
             women.SetActive(true);
             animator.SetBool("IsWalking", true);
             AI_Worker_Walking.isWalking = true;
             StartCoroutine(coroutine_next());
             StartCoroutine(coroutine_stopanimation());
+            if (!sound_walking.isPlaying)
+            {
+                sound_walking.Play();
+            }
         }
     }
     IEnumerator coroutine_next()
@@ -41,8 +48,9 @@ public class women_walking : MonoBehaviour
     IEnumerator coroutine_stopanimation()
     {
         Debug.Log("coroutine  stop created");
-        yield return new WaitForSeconds(14.5f);
+        yield return new WaitForSeconds(11.5f);
         animator.SetBool("IsWalking", false);
         AI_Worker_Walking.isWalking = false;
+        sound_walking.Stop();
     }
 }

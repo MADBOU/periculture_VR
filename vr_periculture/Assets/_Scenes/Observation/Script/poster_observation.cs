@@ -5,6 +5,7 @@ using UnityEngine;
 public class poster_observation : MonoBehaviour
 {
     public GameObject next_point;
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +22,7 @@ public class poster_observation : MonoBehaviour
         Debug.Log(collision.gameObject.name);
         if (collision.gameObject.name == "PlayerController")
         {
-            
+            this.GetComponent<Collider>().isTrigger =true;
             StartCoroutine(coroutine_next());
         }
     }

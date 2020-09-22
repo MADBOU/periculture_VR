@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class end_game : MonoBehaviour
 {
@@ -18,11 +19,13 @@ public class end_game : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         Debug.Log(other.gameObject.name);
-        if (other.gameObject.name == "one_upon")
+        if (other.gameObject.name == "Book_upon")
         {
+            
             other.gameObject.GetComponent<Renderer>().material.SetColor("_Color", Color.green);
-            Debug.Log("GameOver!!!");
-            Application.Quit();
+            //Debug.Log("GameOver!!!");
+            //Application.Quit();
+            SceneManager.LoadSceneAsync(6);
         }
     }
 }
