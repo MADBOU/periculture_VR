@@ -483,7 +483,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 160, y: 30}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.046875, y: 0.119140625}
+  savedTextUV0: {x: 0.0859375, y: 0.19140625}
   savedFill: 0
 --- !u!114 &265649073
 MonoBehaviour:
@@ -991,7 +991,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 160, y: 30}
   savedColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  savedTextUV0: {x: 0.20703125, y: 0.046875}
+  savedTextUV0: {x: 0.0390625, y: 0.08203125}
   savedFill: 0
 --- !u!114 &873213143
 MonoBehaviour:
@@ -1376,7 +1376,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 160, y: 30}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.3046875, y: 0}
+  savedTextUV0: {x: 0.1328125, y: 0.09375}
   savedFill: 0
 --- !u!114 &1293142137
 MonoBehaviour:
@@ -1522,10 +1522,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1367948874}
-        m_TargetAssemblyTypeName: Fin_app, Assembly-CSharp
-        m_MethodName: fin_appli
-        m_Mode: 1
+      - m_Target: {fileID: 1367948873}
+        m_TargetAssemblyTypeName: LoadSceneByIndex, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

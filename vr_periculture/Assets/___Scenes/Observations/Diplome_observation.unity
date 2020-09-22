@@ -2997,8 +2997,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 190659020}
-  - component: {fileID: 190659021}
-  - component: {fileID: 190659022}
   m_Layer: 0
   m_Name: Environment_ext
   m_TagString: Untagged
@@ -3022,36 +3020,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &190659021
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 190659019}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7306a76d876b23241bf829d6b3822d7a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  test_gameObject: {fileID: 1547713037}
---- !u!114 &190659022
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 190659019}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f21d8df842ae3374bb267aea7139b7aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  teleport_point:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!1001 &206074835
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18319,7 +18287,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 650564152}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 22.32, y: -8.99, z: -11.945}
+  m_LocalPosition: {x: 21.506, y: -8.99, z: -11.945}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -19429,7 +19397,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 227.18863, y: 55.47484}
   savedColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  savedTextUV0: {x: 0.125, y: 0}
+  savedTextUV0: {x: 0.21484375, y: 0}
   savedFill: 0
 --- !u!114 &747563069
 MonoBehaviour:
@@ -22728,8 +22696,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -12, y: 128}
-  m_SizeDelta: {x: 227.18863, y: 55.47484}
+  m_AnchoredPosition: {x: -29.9, y: 158}
+  m_SizeDelta: {x: 934.548, y: 55.47484}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1104658512
 MonoBehaviour:
@@ -22744,11 +22712,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DoNotTesselate: 0
-  savedPos: {x: -12.000402, y: 127.99964, z: -268.9993}
+  savedPos: {x: -29.899902, y: 129.99908, z: -268.9993}
   savedUp: {x: 0, y: 1, z: 0}
-  savedRectSize: {x: 227.18863, y: 55.47484}
+  savedRectSize: {x: 934.548, y: 55.47484}
   savedColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  savedTextUV0: {x: 0.203125, y: 0}
+  savedTextUV0: {x: 0, y: 0.20703125}
   savedFill: 0
 --- !u!114 &1104658513
 MonoBehaviour:
@@ -22777,13 +22745,13 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Nom Prenom '
+  m_Text: NOM PRENOM
 --- !u!222 &1104658514
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -31566,7 +31534,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 160, y: 30}
   savedColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  savedTextUV0: {x: 0.27734375, y: 0.109375}
+  savedTextUV0: {x: 0, y: 0.0078125}
   savedFill: 0
 --- !u!114 &1487468378
 MonoBehaviour:
