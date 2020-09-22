@@ -23,9 +23,9 @@ public class end_game : MonoBehaviour
         {
             
             other.gameObject.GetComponent<Renderer>().material.SetColor("_Color", Color.green);
-            Debug.Log("GameOver!!!");
+            //Debug.Log("GameOver!!!");
             //Application.Quit();
-            SceneManager.LoadSceneAsync(0);
+            SceneManager.LoadSceneAsync(6);
         }
     }
 }

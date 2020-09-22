@@ -8,6 +8,7 @@ public class women_walking : MonoBehaviour
     public GameObject women;
     public AudioSource sound_walking;
     Animator animator;
+    
     UnityStandardAssets.Characters.ThirdPerson.AI_Worker_Walking AI_Worker_Walking;
     // Start is called before the first frame update
     void Start()
@@ -47,7 +48,7 @@ public class women_walking : MonoBehaviour
     IEnumerator coroutine_stopanimation()
     {
         Debug.Log("coroutine  stop created");
-        yield return new WaitForSeconds(15.5f);
+        yield return new WaitForSeconds(11.5f);
         animator.SetBool("IsWalking", false);
         AI_Worker_Walking.isWalking = false;
         sound_walking.Stop();
