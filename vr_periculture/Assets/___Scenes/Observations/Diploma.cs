@@ -62,7 +62,7 @@ public class Diploma : MonoBehaviour
         // ScreenCapture.CaptureScreenshot(screenshot_diploma_FolderName+"/" + add_user_name.prenom_s + "_" + add_user_name.nom_s+ "   " + DateTime.Now.ToString("yyyy-MM-dd  HH-mm-ss") + ".jpg");
 
         // sender_mail.Sending_mail(filename, "Diplome de "+add_user_name.prenom_s + "_" + add_user_name.nom_s + "   " + DateTime.Now.ToString("yyyy-MM-dd  HH-mm-ss"), add_user_name.prenom_s + " " + add_user_name.nom_s + " a realisé l'experience chasse aux risques, il/elle a obtenue le score de :  "+ correction.risque_detected.Count.ToString()+"/"+ risque_total.text);
-        sender_mail.Sending_mail(filename, "certificat de " + add_user_name.prenom_s + " " + add_user_name.nom_s + " du  " + DateTime.Now.ToString("dd-MM-yyyy  HH-mm-ss"), "Bonjour,\n Voici le certificat de réalisation de l’expérience Observation de " + add_user_name.prenom_s + " " + add_user_name.nom_s + "\n Sincèrement,");
+        //sender_mail.Sending_mail(filename, "certificat de " + add_user_name.prenom_s + " " + add_user_name.nom_s + " du  " + DateTime.Now.ToString("dd-MM-yyyy  HH-mm-ss"), "Bonjour,\n Voici le certificat de réalisation de l’expérience Observation de " + add_user_name.prenom_s + " " + add_user_name.nom_s + "\n Sincèrement,");
         
 
 
